@@ -2,6 +2,18 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+## Project Instruction
+### Files
+* Testing output of `obj_pose-laser-radar-synthetic-input` is at `/data/output.txt`. The result meet the requirement to the project rubric.
+* Testing output of the Unity App with sensor fusion is at `/data_in_both.txt` and `/data_out_both.txt`.
+* The radar file is called `/data_out_radar.txt` while the lidar one called `/data_out_lidar.txt`
+* The compiled file is called `/ExtendedKF`
+
+### Conclusion
+The RSME to the test data is: `0.0972256,0.0853761,0.450855,0.439588`, which 
+meet the requirement to the project rubric. We can see easily that data with sensor fusion runs the best result.
+
+
 
 ## Dependencies
 
